@@ -1,0 +1,35 @@
+1) downloaded 64-bit node.exe(from http://nodejs.org/download/)
+2) copied it to D: drive
+3) created hello.js file in same drive(i.e. D: drive)
+4) open command prompt
+5) write d: (for go into d drive)
+6) write node hello.js(for starting/restarting the server)
+7) open browser
+8) write http://localhost:8888/ URL
+
+****************************************************************************************
+
+Git hub
+
+1) login into https://github.com
+2) click on + sign for creating new repository
+3) type repository name(ex.nodeapp)
+4) keep it public and create repository
+
+****************************************************************************************
+
+1) downloaded node-v0.10.32-x64.msi(from http://nodejs.org/)
+2) run it.
+3) can open node.js
+4) open gitbash and type node
+5) you can do whatever u want
+6) now create nodeapp folder in d: drive
+7) type all below commands in git bash
+	cd d:
+	cd nodeapp
+	git init (this will create .git folder in nodeapp folder)
+	create some file in nodeapp folder
+	git add .
+	git commit -am "first commit" (in -am "a is for when u del in local it will affect in origin (check))
+	git remote add origin https://github.com/ShahHimani/nodeapp.git (copy paste from git hub website)
+	git push -u origin master
