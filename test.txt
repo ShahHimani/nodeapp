@@ -32,4 +32,4 @@ Git hub
 	git add .
 	git commit -am "first commit" (in -am "a is for when u del in local it will affect in origin (check))
 	git remote add origin https://github.com/ShahHimani/nodeapp.git (copy paste from git hub website)
-	git push -u origin master
+	git push origin master (for first time only use -u, git push -u origin master)
